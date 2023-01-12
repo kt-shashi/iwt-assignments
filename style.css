@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: right;
+}
+
+li {
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 20px 30px 0px;
+  background: rgb(59, 39, 72);
+  box-shadow: 7px 7px 10px rgb(87, 28, 91);
+}
+
+li:hover {
+  background: rgb(223, 203, 225);
+}
+
+a:hover {
+  color: rgb(44, 7, 69);
+}
+
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(229, 212, 232);
+}
+
+section {
+  border-radius: 10px;
+  height: 100vh;
+  font-size: 30px;
+  background: #f0f0f0;
+  padding: 5px 20px;
+  box-shadow: 7px 7px 10px rgb(202, 202, 202);
+  margin: 40px 20px;
+}
+
+h2 {
+  font-weight: bolder;
+  color: rgb(59, 39, 72);
+  display: flex;
+  justify-content: center;
+  /* animation-name: a;
+  animation-duration: 2s; */
+  animation: a linear 2s infinite;
+}
+
+p {
+  font-family: "Quicksand", sans-serif;
+}
+
+marquee:hover {
+  color: rgb(59, 39, 72);
+}
+
+@keyframes a {
+  50% {
+    opacity: 0;
+  }
+}
+
+.para-design {
+  padding: 20px 30px;
+  background-color: rgb(230, 228, 228);
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 7px 7px 10px rgb(219, 217, 217);
+}
+
+.label-design {
+  padding-left: 25px;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.input-design {
+  overflow: hidden;
+  margin: 15px;
+  box-shadow: 7px 7px 10px rgb(202, 202, 202);
+  border: 2px;
+  padding: 10px;
+  background-color: #ececec;
+  height: 30px;
+  width: 100%;
+  font-size: 14pt;
+  border-radius: 10px;
+}
+
+#contact,
+#about {
+  width: 50%;
+}
+
+.contact-div {
+  display: flex;
+  justify-content: center;
+}
+
+.line {
+  height: 2px;
+  background-color: rgb(135, 135, 135);
+}
+
+.input-div {
+  display: flex;
+  justify-content: center;
+}
+
+.radio-design {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  color: #4b4b4b;
+  margin-top: 5px;
+}
+
+.radio-label {
+  padding: 5px;
+  margin-left: 20px;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+}
+
+.submit-button {
+  border-radius: 10px;
+  margin: 20px 20px 0px 20px;
+  padding: 10px;
+  width: 100%;
+  font-size: 20px;
+  border: 2px;
+  color: rgb(227, 227, 227);
+  background-color: rgb(55, 55, 55);
+}
+
+.submit-button:hover {
+  color: rgb(74, 74, 74);
+  background-color: rgb(211, 211, 211);
+}
+
+.line2 {
+  height: 2px;
+  background-color: rgb(135, 135, 135);
+  opacity: 0.1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
