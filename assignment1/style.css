@@ -8,6 +8,8 @@ ul {
 
 .header-design::first-letter {
   color: #9d3adf;
+  padding-top: 20px;
+  padding-left: 30px;
 }
 
 #list-item-design {
@@ -20,7 +22,10 @@ ul {
   box-shadow: 7px 7px 10px rgb(87, 28, 91);
 }
 
-.img-design {
+#list-item-design:hover {
+  background: rgb(223, 203, 225);
+}
+/* .img-design {
   padding: 40px;
   animation: img-ani 3s alternate 1s infinite;
   width: 55%;
@@ -36,7 +41,7 @@ ul {
   100% {
     transform: translateX(100px);
   }
-}
+} */
 
 .nav-design {
   display: flex;
@@ -57,6 +62,10 @@ a {
   color: rgb(229, 212, 232);
 }
 
+.developer {
+  color: rgb(126, 30, 143);
+}
+
 .section-design {
   border-radius: 10px;
   /* height: 100vh; */
@@ -65,6 +74,10 @@ a {
   padding: 5px 20px;
   box-shadow: 7px 7px 10px rgb(202, 202, 202);
   margin: 40px 20px;
+}
+
+.section-design:hover {
+  box-shadow: 7px 7px 10px rgb(208, 168, 209);
 }
 
 h2 {
@@ -98,6 +111,10 @@ marquee:hover {
   margin-top: 20px;
   /* background: linear-gradient(rgb(214, 214, 214), rgb(255, 255, 255)); */
   box-shadow: 7px 7px 10px rgb(219, 217, 217);
+}
+
+.para-design:hover {
+  box-shadow: 7px 7px 10px rgb(208, 168, 209);
 }
 
 .label-design {
@@ -206,4 +223,12 @@ marquee:hover {
   font-family: "ubuntu";
   font-size: 35px;
   font-weight: bold;
+}
+
+.car-image,
+.car-image2 {
+  width: 50%;
+  margin: 5px;
+  background: #000;
+  height: 50vh;
 }
