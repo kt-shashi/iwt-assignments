@@ -23,9 +23,28 @@
         font-size: 14pt;
         border-radius: 10px;
       }
+
+      .para-design {
+        margin: 15px;
+        background: linear-gradient(#ffffff, #ededed);
+        /* display: flex;
+        justify-content: center; */
+      }
+
+      .submit-button {
+        width: 30vh;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        padding: 10px;
+      }
     </style>
   </head>
   <body>
+    <p style="margin-left: 20px; font-weight: bolder; color: rebeccapurple">
+      FORM
+    </p>
+
     <div class="para-design">
       <form>
         <div>
@@ -69,33 +88,77 @@
         </div>
 
         <div class="input-div">
-          <input type="checkbox" />AI <input type="checkbox" />ML
-          <input type="checkbox" />IWT
+          AI <input type="checkbox" class="input-design" /> ML
+          <input type="checkbox" class="input-design" /> IWT
+          <input type="checkbox" class="input-design" />
         </div>
 
         <div>
           <label class="label-design">Select gender:</label>
         </div>
-76y
         <div class="radio-design">
           <label class="radio-label"
             >Male
-            <input type="radio" name="gender" value="male" />
+            <input
+              type="radio"
+              name="gender"
+              value="male"
+              class="input-design"
+            />
           </label>
 
-          <label class="radio-label"
+          <label class="radio-label" class="label-design"
             >Female
-            <input type="radio" name="gender" value="female" />
+            <input
+              type="radio"
+              name="gender"
+              value="female"
+              class="input-design"
+            />
           </label>
 
-          <label class="radio-label"
+          <label class="radio-label" class="label-design"
             >Others
-            <input type="radio" name="gender" value="others" />
+            <input
+              class="input-design"
+              type="radio"
+              name="gender"
+              value="others"
+            />
           </label>
         </div>
 
-        <div class="submit">
-          <input class="submit-button" type="submit" value="Submit" />
+        <div class="dob">
+          <label for="dob" class="label-design">Date of birth:</label>
+          <div>
+            <input
+              type="date"
+              id="dob"
+              name="dob"
+              required
+              class="input-design"
+            />
+          </div>
+        </div>
+
+        <div>
+          <label for="age" class="label-design">Age :</label>
+          <input type="number" id="age" class="input-design" required />
+        </div>
+
+        <div>
+          <label class="label-design">Profile picture :</label>
+          <input
+            type="file"
+            id="profilepic"
+            name="profilepic"
+            class="input-design"
+          />
+        </div>
+
+        <div>
+          <input type="submit" value="Submit" class="submit-button" />
+          <input type="reset" value="Reset" class="submit-button" />
         </div>
       </form>
     </div>
