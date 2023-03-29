@@ -5,13 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Question1</title>
+    <style>
+      h1 {
+        rgb: (87, 28, 91);
+      }
+      .watch-design {
+        text-align: center;
+      }
+
+      .button-design {
+        padding: 4px;
+        margin: 10px;
+        box-shadow: 4px 4px 10px rgb(87, 28, 91);
+      }
+    </style>
   </head>
   <body>
-    <div>
-      <h1 id="timer">00:00:00</h1>
-      <button id="startBtn">Start</button>
-      <button id="stopBtn">Stop</button>
-      <button id="resetBtn">Reset</button>
+    <div class="watch-design">
+      <h1>StopWatch</h1>
+      <h2 id="timer">00:00:00</h2>
+      <button class="button-design" id="startBtn">Start</button>
+      <button class="button-design" id="stopBtn">Stop</button>
+      <button class="button-design" id="resetBtn">Reset</button>
     </div>
 
     <script>
